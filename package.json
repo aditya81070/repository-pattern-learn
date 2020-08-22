@@ -1,0 +1,19 @@
+{
+  "name": "repository-pattern-learn",
+  "version": "1.0.0",
+  "description": "A small project to learn about repository pattern for software development.",
+  "main": "index.js",
+  "author": "Aditya Agarwal(@aditya81070)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "rm -rf lib && yarn build && node lib/index.js"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.5.26",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.0"
+  }
+}
